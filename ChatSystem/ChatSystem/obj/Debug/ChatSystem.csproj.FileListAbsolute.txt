@@ -1,0 +1,5 @@
+C:\Users\Ress\Code\WindowsChatDaemon\ChatSystem\ChatSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ress\Code\WindowsChatDaemon\ChatSystem\ChatSystem\bin\Debug\ChatSystem.dll
+C:\Users\Ress\Code\WindowsChatDaemon\ChatSystem\ChatSystem\bin\Debug\ChatSystem.pdb
+C:\Users\Ress\Code\WindowsChatDaemon\ChatSystem\ChatSystem\obj\Debug\ChatSystem.dll
+C:\Users\Ress\Code\WindowsChatDaemon\ChatSystem\ChatSystem\obj\Debug\ChatSystem.pdb
