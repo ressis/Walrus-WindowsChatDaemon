@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ChatSystem
 {
-    class ChatRoomUser : User
-    {
-        public ChatRoomUser(string id, string nick)
-            : base(id,nick)
-        {
-        }
-    }
+	class ChatRoomUser : User
+	{
+		public ChatRoomUser(string id, string nick)
+			: base(id, nick)
+		{
+		}
+	}
 }

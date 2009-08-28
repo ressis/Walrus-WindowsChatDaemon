@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatRoomUser.cs" />
+    <Compile Include="CircularQueue.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
