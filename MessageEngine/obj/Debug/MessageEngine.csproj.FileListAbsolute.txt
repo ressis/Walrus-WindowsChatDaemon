@@ -1,0 +1,9 @@
+C:\Users\Ress\Code\WalrusChat\ChatSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\ChatGlue.dll
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\WalrusStructures.dll
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\WalrusStructures.pdb
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\ChatGlue.pdb
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\MessageEngine.dll
+C:\Users\Ress\Code\WalrusChat\ChatSystem\bin\Debug\MessageEngine.pdb
+C:\Users\Ress\Code\WalrusChat\ChatSystem\obj\Debug\MessageEngine.dll
+C:\Users\Ress\Code\WalrusChat\ChatSystem\obj\Debug\MessageEngine.pdb

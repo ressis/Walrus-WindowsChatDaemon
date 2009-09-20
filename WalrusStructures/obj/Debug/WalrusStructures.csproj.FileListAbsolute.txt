@@ -1,0 +1,5 @@
+C:\Users\Ress\Code\WalrusChat\WalrusStructures\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ress\Code\WalrusChat\WalrusStructures\bin\Debug\WalrusStructures.dll
+C:\Users\Ress\Code\WalrusChat\WalrusStructures\bin\Debug\WalrusStructures.pdb
+C:\Users\Ress\Code\WalrusChat\WalrusStructures\obj\Debug\WalrusStructures.dll
+C:\Users\Ress\Code\WalrusChat\WalrusStructures\obj\Debug\WalrusStructures.pdb

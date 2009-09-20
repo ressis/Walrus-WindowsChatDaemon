@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ChatSystem
+namespace ChatGlue
 {
 	public class User : IEquatable<User>
 	{

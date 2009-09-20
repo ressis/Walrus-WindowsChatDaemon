@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ChatSystem
+namespace ChatGlue
 {
-	enum MessageType
+	public enum MessageType
 	{
 		Message,
 		Emote,
@@ -13,7 +13,7 @@ namespace ChatSystem
 		Enter,
 		Exit
 	}
-	class Message
+	public class Message
 	{
 		private User poster;
 		private string content;

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ChatSystem
+namespace WalrusStructures
 {
-	class CircularQueue<T>
+	public class CircularQueue<T>
 	{
-		Int64 lowerBound;
-		Int64 higherBound;
-		int maxSize;
-		T[] array;
+		private Int64 lowerBound;
+		private Int64 higherBound;
+		private int maxSize;
+		private T[] array;
 
 		public CircularQueue(int size)
 		{
@@ -20,12 +20,13 @@ namespace ChatSystem
 			array = new T[size];
 		}
 
-		public void push(T obj)
+		public Int64 push(T obj)
 		{
 			array[higherBound % maxSize] = obj;
 			higherBound++;
 			if (higherBound - lowerBound >= maxSize)
 				lowerBound++;
+			return higherBound;
 		}
 
 		public T pop()
@@ -35,6 +36,18 @@ namespace ChatSystem
 			T item = array[lowerBound % maxSize];
 			lowerBound++;
 			return item;
+		}
+
+		public T[] peekFrom(Int64 index)
+		{
+			if (index > higherBound)
+				return null;
+			if (index + maxSize < lowerBound)
+				return array;
+			List<T> list = new List<T>();
+			for (; index < higherBound; index++)
+				list.Add(array[index % maxSize]);
+			return list.ToArray();
 		}
 	}
 }

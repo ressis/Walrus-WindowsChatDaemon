@@ -8,8 +8,8 @@
     <ProjectGuid>{C7C244CC-6B12-4C64-A346-0258B24B2307}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChatSystem</RootNamespace>
-    <AssemblyName>ChatSystem</AssemblyName>
+    <RootNamespace>MessageEngine</RootNamespace>
+    <AssemblyName>MessageEngine</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,7 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Message.cs" />
+    <Compile Include="NoRoomException.cs" />
+    <Compile Include="Engine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
